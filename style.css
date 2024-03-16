@@ -1,24 +1,19 @@
-/* text properties */
-@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Syne+Tactile&display=swap');
+/* Border, Padding and Margin */
+/* Every HTML data in any website is surrounded within a box */
 
 h1{
     font-size: 70px;
-    /* Control the thickness of the text (100 to 900)*/
-    font-weight: 400;
-    text-align: center;
-    /* font-style: italic; */
-    text-decoration: underline wheat;
-    letter-spacing: 20px;
-    word-spacing: 40px;
-    text-transform: uppercase;
-    /* text-shadow: 3px 4px 3px red; */
-    font-family: "Syne Tactile", system-ui;   
-}
+    border: 1px solid red;
+    /* padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px; */
 
-a{
-    font-size: 30px;
-    text-decoration: none;
-}
+    /* padding: 50px; */
+    
+    /* margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px; */
 
-/* sans-serif, serif and monospace --> These are the 3 font families wchich
-will normally support every browser */
+    margin: 50px;
+}
