@@ -9,6 +9,6 @@ div{
     padding: 15px;
     background-color: orange;
 
-    position: fixed;
-    top: 0px;
+    position: sticky;
+    top: 50px;
 }
