@@ -6,38 +6,61 @@
 from its original position
 3) Absolute = The movement of left, right, top and bottom will always happen
 from the webpage or browser
+
+If we use only absolute position without relative position, that absolute will
+have left, right, bottom and top which always works from the Webpage
+
+If we use absolute(Child) and relative(Parent, Grandparent, ...) position together,
+that absolute will have lefy, right, top and bottom which always works from the parent
+which is made relative
+
 4) Fixed
 5) Sticky */
 
 /* Whenever we use any of the position properties, we can control let, right, top and bottom */
 
-div{
+#outerouter{
     border: 1px solid darkblue;
     background-color: darkblue;
     width: 1000px;
     height: 500px;
+
+    
+}
+
+#outer{
+    border: 1px solid darkred;
+    background-color: darkred;
+    width: 800px;
+    height: 400px;
     display: flex;
+
+    position: relative;
 }
 
 
-h1{
+#first{
     border: 1px solid magenta;
     background-color: magenta;
     width: 150px;
     height: 150px;
+
+    position: absolute;
+    right: 0px;
 }
 
-h2{
+#second{
     border: 1px solid lightblue;
     background-color: lightblue;
     width: 150px;
     height: 150px;
 }
 
-h3{
+#third{
     border: 1px solid limegreen;
     background-color: limegreen;
     width: 150px;
     height: 150px;
   
 }
+
