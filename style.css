@@ -2,8 +2,10 @@
 /* If we want to position our HTML data in anywhere on the website */
 /* 5 position properties */
 /* 1) static(useless)
-2) Relative
-3) Absolute
+2) Relative = The movement of left, right, top and bottom will always happen
+from its original position
+3) Absolute = The movement of left, right, top and bottom will always happen
+from the webpage or browser
 4) Fixed
 5) Sticky */
 
@@ -16,6 +18,7 @@ div{
     height: 500px;
     display: flex;
 }
+
 
 h1{
     border: 1px solid magenta;
@@ -36,10 +39,5 @@ h3{
     background-color: limegreen;
     width: 150px;
     height: 150px;
-
-    position: static;
-    left: 30px;
-    top: 400px;
-    right: 0px;
-    bottom: 30px;
+  
 }
