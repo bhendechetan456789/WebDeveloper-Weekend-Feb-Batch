@@ -1,19 +1,12 @@
-/* Border, Padding and Margin */
-/* Every HTML data in any website is surrounded within a box */
 
 h1{
-    font-size: 70px;
-    border: 1px solid red;
-    /* padding-top: 50px;
-    padding-left: 40px;
-    padding-bottom: 30px;
-    padding-right: 40px; */
-
-    /* padding: 50px; */
-    
-    /* margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 50px; */
-
-    margin: 50px;
+    border: 1px solid black;
+    margin-bottom: 50px;
 }
+
+h2{
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+/* Margin Collapsing */
