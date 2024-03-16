@@ -1,66 +1,14 @@
-/* position properties */
-/* If we want to position our HTML data in anywhere on the website */
-/* 5 position properties */
-/* 1) static(useless)
-2) Relative = The movement of left, right, top and bottom will always happen
-from its original position
-3) Absolute = The movement of left, right, top and bottom will always happen
-from the webpage or browser
-
-If we use only absolute position without relative position, that absolute will
-have left, right, bottom and top which always works from the Webpage
-
-If we use absolute(Child) and relative(Parent, Grandparent, ...) position together,
-that absolute will have lefy, right, top and bottom which always works from the parent
-which is made relative
-
-4) Fixed
-5) Sticky */
-
-/* Whenever we use any of the position properties, we can control let, right, top and bottom */
-
-#outerouter{
-    border: 1px solid darkblue;
-    background-color: darkblue;
-    width: 1000px;
-    height: 500px;
-
-    
+a{
+    font-size: 40px;
+    text-decoration: none;
+    margin: 20px;
 }
 
-#outer{
-    border: 1px solid darkred;
-    background-color: darkred;
-    width: 800px;
-    height: 400px;
-    display: flex;
+div{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: orange;
 
-    position: relative;
+    position: fixed;
+    top: 0px;
 }
-
-
-#first{
-    border: 1px solid magenta;
-    background-color: magenta;
-    width: 150px;
-    height: 150px;
-
-    position: absolute;
-    right: 0px;
-}
-
-#second{
-    border: 1px solid lightblue;
-    background-color: lightblue;
-    width: 150px;
-    height: 150px;
-}
-
-#third{
-    border: 1px solid limegreen;
-    background-color: limegreen;
-    width: 150px;
-    height: 150px;
-  
-}
-
