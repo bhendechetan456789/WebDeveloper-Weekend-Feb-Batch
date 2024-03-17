@@ -1,14 +1,34 @@
+/* pseudo classes = pseudo classes are used to defined some special state to our HTML data */
+/* : */
+
+/* pseudo(greek word) = false or not genuine */
+
+/* All the pesudo classes :hover, :visited, .....these are not the inbuilt classes
+which are present in HTML language */
+
 a{
-    font-size: 40px;
     text-decoration: none;
-    margin: 20px;
 }
 
-div{
+/* Exactly work at the time of keeping cursor on the link */
+a:hover{
     border: 1px solid black;
-    padding: 15px;
-    background-color: orange;
-
-    position: sticky;
-    top: 50px;
+    padding: 5px;
 }
+
+/* Exactly at the time of clicking that link */
+a:active{
+    background-color: red;
+}
+
+/* Once the link is clicked and visited */
+a:visited{
+    background-color: magenta;
+}
+
+/* If the link is not visited */
+a:link
+{
+    background-color: green;
+}
+
