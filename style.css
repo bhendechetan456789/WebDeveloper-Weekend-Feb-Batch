@@ -25,3 +25,8 @@ input:invalid
 {
     color: red;
 } */
+
+
+h1:not(#second){
+    color: red;
+}
