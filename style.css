@@ -1,32 +1,37 @@
 
+/* Pseduo classes are used to apply some special state to that 
+entire HTML data  ==> : */
 
-/* input:enabled
-{
-    background-color: green;
-}
+/* Pseudo elements are also used to apply some special
+state to the part of HTML data ==> :: */
 
-input:disabled
-{
-    background-color: red;
-} */
 
-/* input:focus
+/* p::first-letter
 {
-    background-color: green;
-    color: orange;
-} */
-
-/* input:valid
-{
-    color: green;
-}
-
-input:invalid
-{
+    font-size: 50px;
     color: red;
 } */
 
 
-h1:not(#second){
+/* p::first-line
+{
+    font-size: 50px;
     color: red;
-}
+} */
+
+/* after and before pseudo elements play an important role 
+when we work with CSS Animations */
+
+/* h1::after
+{
+    content: " easy";
+} */
+
+/* h1::before{
+    content: "Learning ";
+} */
+
+/* h1::selection
+{
+    color: red;
+} */
