@@ -1,34 +1,53 @@
-/* pseudo classes = pseudo classes are used to defined some special state to our HTML data */
-/* : */
-
-/* pseudo(greek word) = false or not genuine */
-
-/* All the pesudo classes :hover, :visited, .....these are not the inbuilt classes
-which are present in HTML language */
-
-a{
-    text-decoration: none;
+/* 
+h1:first-child{
+    color: red;
 }
 
-/* Exactly work at the time of keeping cursor on the link */
-a:hover{
-    border: 1px solid black;
-    padding: 5px;
+h1:last-child{
+    color: blue;
 }
 
-/* Exactly at the time of clicking that link */
-a:active{
-    background-color: red;
+h1:nth-child(2){
+    color: maroon;
 }
 
-/* Once the link is clicked and visited */
-a:visited{
-    background-color: magenta;
-}
+h1:nth-child(3){
+    color: green;
+} */
 
-/* If the link is not visited */
-a:link
+/* Target every odd h1 tag  */
+/* h1:nth-child(2n - 1)
 {
-    background-color: green;
-}
+    color: blue;
+} */
 
+/* 2n - 1 */
+
+/* when n = 0, 2n-1 = -1 */
+/* when n = 1, 2n - 1 = 1 */
+/* when n = 2, 2n - 1 = 3 */
+
+/* Target every even h1 tag  */
+/* h1:nth-child(2n)
+{
+    color: orange;
+} */
+
+/* when n = 0, 2n = 0 */
+/* when n = 1, 2n = 2 */
+/* when n = 2, 2n = 4 */
+
+/* h1:nth-child(2n + 3)
+{
+    background-color: red;
+} */
+
+/* n = 0, 2n + 3 = 3 */
+/* n = 1, 2n + 3 = 5 */
+/* n = 2, 2n + 3 = 7 */
+
+/* I want to target every 3rd element present in the list  */
+
+/* h1:nth-child(1n + 3){
+    background-color: maroon;
+} */
